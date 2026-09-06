@@ -1,0 +1,5 @@
+# Requirements — PCC Dinamis Controller (Python >= 3.10)
+# Dipakai oleh: controller/collector.py (pysnmp) + controller/mikrotik_api.py (librouteros)
+# Modul lain (filter, saw_alqi, decider, main_loop) hanya stdlib.
+librouteros>=3.2.1   # API ke MikroTik RouterOS (Port 4 MGMT)
+pysnmp>=5.1.0        # Baca throughput via SNMP ifHCIn/OutOctets
